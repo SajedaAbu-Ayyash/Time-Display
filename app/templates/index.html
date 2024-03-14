@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Display</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <div class="div-1"><p class="p1">The current time and date</p></div>
+    <div class="div-2">
+      <p class="p2">{{ time }}</p>
+    </div>
+  </body>
+</html>

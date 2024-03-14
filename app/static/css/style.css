@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: max-content;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.div-1 {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+    margin: 50px;
+    text-align: center;
+}
+ 
+.p1 {
+    margin-top: 15px;
+}
+
+.div-2 {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+    margin: 50px;
+    text-align: center;
+}
+
+.p2 {
+    margin-top: 15px;
+}
